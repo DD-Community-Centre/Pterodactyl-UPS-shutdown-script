@@ -33,4 +33,5 @@ SHUTDOWN_SCRIPT='your UPS shutdown script path'
 ```
 pwrstat -pwrfail -delay 60 -active on -cmd /etc/pwrstatd-powerfail.sh -duration 60 -shutdown on 
 pwrstat -lowbatt -delay 5 -active on -cmd /etc/pwrstatd-lowbatt.sh -duration 60 -shutdown on 
+pwrstat -config
 ```
